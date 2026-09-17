@@ -27,7 +27,7 @@
     <header class="topbar"><div class="brand"><span class="mark" aria-hidden="true"></span>双侧刺激工作台</div><div class="top-actions"><span class="badge">临床工作者引导使用 · 无需注册</span><button class="icon-btn" id="langToggle" type="button" aria-label="切换为繁体中文">繁體</button><button class="icon-btn" id="themeToggle" type="button" aria-pressed="false">☀ 浅色</button></div></header>
 
     <section id="welcome">
-      <p class="badge" style="display:inline-block">Mind X社区</p>
+      <a class="badge" style="display:inline-block;text-decoration:none" href="https://www.mindx.us/zh/">Mind X社区</a>
       <h1>保持联结，<br><span class="accent">引导节奏。</span></h1>
       <p class="lede">专为受过专业训练的临床工作者及其来访者设计的双侧刺激辅助工具，适用于面对面或远程心理咨询，不收集咨询记录或个人信息。</p>
       <div class="role-grid">
@@ -76,7 +76,7 @@
         </div>
       </section>
     </section>
-    <footer class="footer"><span>由 <a href="https://mindx.us/zh/" target="_blank" rel="noopener">Mind X社区</a> 开发</span><span>重视隐私 · 不保存临床信息</span></footer>
+    <footer class="footer"><span>由 <a href="https://www.mindx.us/zh/">Mind X社区</a> 开发</span><span>重视隐私 · 不保存临床信息</span></footer>
   </main>
 
   <dialog id="roomDialog"><form method="dialog"><div class="panel-head"><div><div class="group-title">远程咨询</div><h2 id="dialogTitle">邀请来访者</h2></div><button class="icon-btn" aria-label="关闭">×</button></div><div id="hostContent"><p class="fine">请分享房间代码或加入链接。来访者连接期间，请保持此页面开启。</p><div class="code" id="roomCode"></div><button type="button" class="btn primary" id="copyLink" style="width:100%">复制加入链接</button></div><div id="joinContent" class="hidden"><p class="fine">请输入临床工作者提供的六位房间代码。</p><div class="join"><input id="joinCode" type="text" maxlength="6" autocomplete="off" autocapitalize="characters" placeholder="ABC123" aria-label="房间代码"><button type="button" class="btn primary" id="joinBtn">加入</button></div><p id="joinError" class="fine" style="color:var(--danger)"></p></div><p class="fine" style="margin-top:18px">房间只传输即时控制指令。请勿使用姓名、诊断或其他可识别身份的信息作为房间代码。</p></form></dialog>
