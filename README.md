@@ -2,7 +2,7 @@
 
 A static, responsive bilateral stimulation companion for clinician-guided in-person and telehealth sessions. It can be hosted directly on GitHub Pages.
 
-Visual controls include horizontal and bidirectional diagonal movement paths, smooth return-to-origin when a set pauses or ends, target shape, size presets and fine adjustment, color, glow, vertical position, travel width, guide line, side cues, motion trail, and several client-screen backgrounds. Clinicians can also adjust speed, stereo sound, volume, and set duration in real time.
+Visual controls include horizontal and bidirectional diagonal movement paths, smooth return-to-origin when a set pauses or ends, target shape, size presets and fine adjustment, color, glow, vertical position, travel width, guide line, side cues, motion trail, and several client-screen backgrounds. Clinicians can also adjust speed, stereo sound, volume, and set duration in real time. Both clinician and client displays provide full-screen controls.
 
 The root `index.html` is the English version. `zh/index.html` is the Chinese version and contains both Simplified and Traditional Chinese with an in-page script toggle. Both versions include a persistent light/dark appearance toggle.
 
